@@ -1,0 +1,24 @@
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem; /* Spacing between images */
+    margin-top: 2rem;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .brands img {
+    width: 80px; /* Set the image size to be small */
+    filter: grayscale(1); /* Grayscale effect */
+  }
+  @media (max-width:800px){
+    .brands{
+      flex-wrap: wrap;
+    }
+    .brands img{
+      width: 88%;
+      margin-bottom: 10px;
+
+    }
+  }
